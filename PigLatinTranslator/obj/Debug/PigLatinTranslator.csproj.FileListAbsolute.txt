@@ -1,0 +1,16 @@
+C:\Users\Christina\Desktop\CS235AM Android\PigLatinTranslator\PigLatinTranslator\PigLatinTranslator\bin\Debug\PigLatinTranslator.dll
+C:\Users\Christina\Desktop\CS235AM Android\PigLatinTranslator\PigLatinTranslator\PigLatinTranslator\bin\Debug\PigLatinTranslator.pdb
+C:\Users\Christina\Desktop\CS235AM Android\PigLatinTranslator\PigLatinTranslator\PigLatinTranslator\bin\Debug\PigLatinTranslator.PigLatinTranslator.apk
+C:\Users\Christina\Desktop\CS235AM Android\PigLatinTranslator\PigLatinTranslator\PigLatinTranslator\bin\Debug\PigLatinTranslator.PigLatinTranslator-Signed.apk
+C:\Users\Christina\Desktop\CS235AM Android\PigLatinTranslator\PigLatinTranslator\PigLatinTranslator\obj\Debug\PigLatinTranslator.csprojResolveAssemblyReference.cache
+C:\Users\Christina\Desktop\CS235AM Android\PigLatinTranslator\PigLatinTranslator\PigLatinTranslator\obj\Debug\PigLatinTranslator.dll
+C:\Users\Christina\Desktop\CS235AM Android\PigLatinTranslator\PigLatinTranslator\PigLatinTranslator\obj\Debug\PigLatinTranslator.pdb
+C:\Users\Christina\Desktop\CS235AM Android\PigLatinTranslator\PigLatinTranslator\PigLatinTranslator\obj\Debug\android\bin\PigLatinTranslator.PigLatinTranslator.apk
+C:\Users\Christina\Desktop\CS235AM Android\PigLatinTranslator\PigLatinTranslator\PigLatinTranslator\obj\Debug\res\layout-land\main.xml
+C:\Users\Christina\Desktop\CS235AM Android\PigLatinTranslator\PigLatinTranslator\PigLatinTranslator\obj\Debug\res\layout\main.xml
+C:\Users\Christina\Desktop\CS235AM Android\PigLatinTranslator\PigLatinTranslator\PigLatinTranslator\obj\Debug\res\values\strings.xml
+C:\Users\Christina\Desktop\CS235AM Android\PigLatinTranslator\PigLatinTranslator\PigLatinTranslator\obj\Debug\res\drawable\icon.png
+C:\Users\Christina\Desktop\CS235AM Android\PigLatinTranslator\PigLatinTranslator\PigLatinTranslator\obj\Debug\R.cs.flag
+C:\Users\Christina\Desktop\CS235AM Android\PigLatinTranslator\PigLatinTranslator\PigLatinTranslator\obj\Debug\uploadflags.txt
+C:\Users\Christina\Desktop\CS235AM Android\PigLatinTranslator\PigLatinTranslator\PigLatinTranslator\bin\Debug\PigLatinTranslator.dll.mdb
+C:\Users\Christina\Desktop\CS235AM Android\PigLatinTranslator\PigLatinTranslator\PigLatinTranslator\obj\Debug\android\assets\PigLatinTranslator.dll.mdb
