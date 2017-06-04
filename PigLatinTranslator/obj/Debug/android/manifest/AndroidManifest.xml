@@ -5,7 +5,7 @@
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <application android:label="PigLatinTranslator" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
-    <activity android:label="History" android:name="md54a9f1f368d02a1340b1feed100cadc52.HistoryActivity" />
+    <activity android:label="History" android:parentActivityName="md54a9f1f368d02a1340b1feed100cadc52.MainActivity" android:name="md54a9f1f368d02a1340b1feed100cadc52.HistoryActivity" />
     <activity android:icon="@drawable/icon" android:label="PigLatinTranslator" android:name="md54a9f1f368d02a1340b1feed100cadc52.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />

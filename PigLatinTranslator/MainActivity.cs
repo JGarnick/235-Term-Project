@@ -101,9 +101,9 @@ namespace PigLatinTranslator
             }
             return string.Join(" ", newWords);
         }
-        public override void OnSaveInstanceState(Bundle outState, PersistableBundle outPersistentState)
+        protected override void OnSaveInstanceState(Bundle outState)
         {
-            base.OnSaveInstanceState(outState, outPersistentState);
+            base.OnSaveInstanceState(outState);
 
             outState.PutString("EnteredWords", enteredWords.Text);
             outState.PutString("Translation", translatedWords.Text);

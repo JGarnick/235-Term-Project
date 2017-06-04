@@ -1,7 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:minWidth="25px"
-    android:minHeight="25px" />
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:id="@+id/linearlayout1">
+            <TextView
+                android:text="Pig Latin Translator"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1"
+                android:layout_marginTop="22.0dp"
+                android:gravity="center"
+                android:layout_marginBottom="17.5dp" />
+            <TextView
+                android:text="Please enter an english word or sentence into the box and press translate!"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:layout_marginTop="0.0dp"
+                android:gravity="center"
+                android:layout_marginBottom="12.5dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="322.0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearlayout2"
+            android:layout_below="@id/linearlayout1"
+            android:gravity="center"
+            android:layout_marginRight="0.0dp"
+            android:layout_marginLeft="22.0dp">
+            <EditText
+                android:hint="English Words"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/enterWordsET"
+                android:layout_marginTop="29.0dp"
+                android:gravity="center" />
+            <Button
+                android:text="Translate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/translateBTN"
+                android:layout_gravity="center" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearlayout3"
+            android:layout_below="@id/linearlayout1"
+            android:layout_toRightOf="@id/linearlayout2"
+            android:gravity="center"
+            android:layout_marginRight="22.0dp">
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/translatedWordTV"
+                android:layout_marginTop="56.0dp"
+                android:gravity="center" />
+        </LinearLayout>
+        <Button
+            android:text="View History"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/historyBTN"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/linearlayout2" />
+    </RelativeLayout>
+</FrameLayout>
